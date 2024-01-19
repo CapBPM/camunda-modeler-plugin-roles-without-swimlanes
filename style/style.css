@@ -1,0 +1,56 @@
+/* Custom styles go here */
+.pluggin-toggle {
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.badge-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #0095ff;
+  border: 1px #505562 solid;
+  width: 100px;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 100px;
+  transition: width 0.15s ease;
+}
+
+.badge-img {
+  width: 20px;
+  height: 20px;
+  background-image: url(../icons/group-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: red;
+  flex-shrink: 0;
+}
+
+.badge-content {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-family: "IBM Plex Sans", system-ui, Arial, sans-serif;
+}
+
+.group-list-item {
+  margin-right: 5px;
+  width: max-content;
+  flex-shrink: 0;
+}
