@@ -1,7 +1,5 @@
 # Camunda Modeler Roles Without Swimlanes Plugin
 
----
-
 [![Modeler Version](https://img.shields.io/badge/Modeler_Verion-5.0.0+-blue.svg)](#) [![Plugin Type](https://img.shields.io/badge/Plugin_Type-BPMN-orange.svg)](#)
 
 ## Description
