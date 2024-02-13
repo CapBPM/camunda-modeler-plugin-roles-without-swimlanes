@@ -67,7 +67,7 @@ class CandidateGroupPlugin {
   getGroupsC8(businessObject) {
     const values = businessObject.extensionElements?.values;
     if (!values?.length) return null;
-    return values.find(val => !!val.candidateGroups)?.candidateGroups || [];
+    return values.find(val => !!val.candidateGroups)?.candidateGroups || null;
   }
   buildHtml(groups) {
     return `<div class="badge">
